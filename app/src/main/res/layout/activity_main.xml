@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_menu1"
+    tools:context="com.example.dholme22.myfirstapp.MainActivity">
+
+    <ImageButton
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_gravity="left"
+        android:onClick="scrollToTop"
+        tools:layout_editor_absoluteY="244dp"
+        tools:layout_editor_absoluteX="41dp"
+        android:background="@drawable/set"
+        android:id="@+id/setBtn"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignBottom="@+id/sndBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="left"
+        android:onClick="scrollToTop"
+        tools:layout_editor_absoluteY="244dp"
+        tools:layout_editor_absoluteX="484dp"
+        android:background="@drawable/audio"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:id="@+id/sndBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:paddingLeft="10dp"
+        android:paddingRight="-1dp"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/tap2start"
+        android:layout_alignTop="@+id/setBtn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
